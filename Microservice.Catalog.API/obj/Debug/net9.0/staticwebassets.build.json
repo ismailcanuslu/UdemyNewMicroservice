@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "0jSyiql2DPQrXyTBeQKkvM0xWgM+gixkFiTulKTL2s0=",
+  "Source": "Microservice.Catalog.API",
+  "BasePath": "_content/Microservice.Catalog.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
