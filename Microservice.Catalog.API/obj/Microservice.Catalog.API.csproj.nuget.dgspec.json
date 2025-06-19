@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/UdemyNewMicroservice/UdemyNewMicroservice/UdemyNewMicroservice.csproj": {}
+    "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Catalog.API/Microservice.Catalog.API.csproj": {}
   },
   "projects": {
-    "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/UdemyNewMicroservice/UdemyNewMicroservice/UdemyNewMicroservice.csproj": {
+    "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Catalog.API/Microservice.Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/UdemyNewMicroservice/UdemyNewMicroservice/UdemyNewMicroservice.csproj",
-        "projectName": "UdemyNewMicroservice",
-        "projectPath": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/UdemyNewMicroservice/UdemyNewMicroservice/UdemyNewMicroservice.csproj",
+        "projectUniqueName": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Catalog.API/Microservice.Catalog.API.csproj",
+        "projectName": "Microservice.Catalog.API",
+        "projectPath": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Catalog.API/Microservice.Catalog.API.csproj",
         "packagesPath": "/Users/ismailcanuslu/.nuget/packages/",
-        "outputPath": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/UdemyNewMicroservice/UdemyNewMicroservice/obj/",
+        "outputPath": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Catalog.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ismailcanuslu/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

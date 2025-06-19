@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("UdemyNewMicroservice")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Microservice.Catalog.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("UdemyNewMicroservice")]
-[assembly: System.Reflection.AssemblyTitleAttribute("UdemyNewMicroservice")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da78f764335b24bd798e26ebf2713dd5ae3964a6")]
+[assembly: System.Reflection.AssemblyProductAttribute("Microservice.Catalog.API")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Microservice.Catalog.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
