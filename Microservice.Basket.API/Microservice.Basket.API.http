@@ -1,0 +1,14 @@
+@baseAddress = http://localhost:5127
+@courseId = 08ddb292-b8bb-944e-ca65-afaf34480000
+
+POST {{baseAddress}}/api/v1/baskets/item
+Accept: application/json
+Content-Type: application/json
+
+{
+  "courseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "courseName": "test course",
+  "coursePrice": 220
+}
+
+###

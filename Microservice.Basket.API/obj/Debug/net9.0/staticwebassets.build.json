@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "cZdWbYLHIvwER4WLcxB0OtRQ+FY4g3+UwaVI0JW+86M=",
+  "Source": "Microservice.Basket.API",
+  "BasePath": "_content/Microservice.Basket.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Microservice.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+febb80da1cd96d71ae525c42019474331c952683")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+621167abe44be070dcd0d38dd714fb41acd3164e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Microservice.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Microservice.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
