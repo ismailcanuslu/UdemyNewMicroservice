@@ -1,12 +1,15 @@
 using System.Net;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Refit;
 using ProblemDetails = Microsoft.AspNetCore.Mvc.ProblemDetails;
 
 namespace Microservice.Shared;
 
+public interface IRequestByServiceResult<T> : IRequest<ServiceResult<T>>;
+public interface IRequestByServiceResult : IRequest<ServiceResult>;
 public class ServiceResult
 {
     [JsonIgnore] public HttpStatusCode StatusCode { get; set; }
@@ -119,7 +122,7 @@ public class ServiceResult
 public class ServiceResult<T> : ServiceResult
 {
     public T? Data { get; set; }
-    public string? UrlAsCreated { get; set; }
+    [JsonIgnore] public string? UrlAsCreated { get; set; }
 
     public static ServiceResult<T> SuccessAsOk(T data)
     {

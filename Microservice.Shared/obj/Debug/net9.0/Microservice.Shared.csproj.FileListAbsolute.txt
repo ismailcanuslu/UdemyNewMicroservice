@@ -1,0 +1,13 @@
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/bin/Debug/net9.0/Microservice.Shared.deps.json
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/bin/Debug/net9.0/Microservice.Shared.dll
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/bin/Debug/net9.0/Microservice.Shared.pdb
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/obj/Debug/net9.0/Microservice.Shared.csproj.AssemblyReference.cache
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/obj/Debug/net9.0/Microservice.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/obj/Debug/net9.0/Microservice.Shared.AssemblyInfoInputs.cache
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/obj/Debug/net9.0/Microservice.Shared.AssemblyInfo.cs
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/obj/Debug/net9.0/Microservice.Shared.csproj.CoreCompileInputs.cache
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/obj/Debug/net9.0/Microservice.Shared.sourcelink.json
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/obj/Debug/net9.0/Microservice.Shared.dll
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/obj/Debug/net9.0/refint/Microservice.Shared.dll
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/obj/Debug/net9.0/Microservice.Shared.pdb
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/obj/Debug/net9.0/ref/Microservice.Shared.dll

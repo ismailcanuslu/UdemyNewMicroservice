@@ -1,11 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "k67qPmRCCxU=",
+  "dgSpecHash": "sbSFDpUBcIw=",
   "success": true,
   "projectFilePath": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Shared/Microservice.Shared.csproj",
   "expectedPackageFiles": [
+    "/Users/ismailcanuslu/.nuget/packages/asp.versioning.abstractions/8.1.0/asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/asp.versioning.http/8.1.0/asp.versioning.http.8.1.0.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/asp.versioning.mvc/8.1.0/asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/asp.versioning.mvc.apiexplorer/8.1.0/asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/automapper/14.0.0/automapper.14.0.0.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/fluentvalidation.aspnetcore/11.3.1/fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/mediatr/12.5.0/mediatr.12.5.0.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/microsoft.extensions.apidescription.server/8.0.0/microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
@@ -19,8 +28,13 @@
     "/Users/ismailcanuslu/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/microsoft.openapi/1.6.23/microsoft.openapi.1.6.23.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/refit/8.0.0/refit.8.0.0.nupkg.sha512",
-    "/Users/ismailcanuslu/.nuget/packages/refit.httpclientfactory/8.0.0/refit.httpclientfactory.8.0.0.nupkg.sha512"
+    "/Users/ismailcanuslu/.nuget/packages/refit.httpclientfactory/8.0.0/refit.httpclientfactory.8.0.0.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/swashbuckle.aspnetcore/9.0.1/swashbuckle.aspnetcore.9.0.1.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/swashbuckle.aspnetcore.swagger/9.0.1/swashbuckle.aspnetcore.swagger.9.0.1.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/swashbuckle.aspnetcore.swaggergen/9.0.1/swashbuckle.aspnetcore.swaggergen.9.0.1.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/swashbuckle.aspnetcore.swaggerui/9.0.1/swashbuckle.aspnetcore.swaggerui.9.0.1.nupkg.sha512"
   ],
   "logs": []
 }

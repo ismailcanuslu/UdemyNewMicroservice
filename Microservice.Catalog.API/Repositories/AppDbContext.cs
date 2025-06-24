@@ -1,7 +1,6 @@
 using System.Reflection;
 using Microservice.Catalog.API.Features.Categories;
 using Microservice.Catalog.API.Features.Courses;
-using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
 using MongoDB.EntityFrameworkCore.Extensions;
 

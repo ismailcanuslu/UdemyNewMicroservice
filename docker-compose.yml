@@ -2,6 +2,7 @@
   mongo.db.catalog:
     image: mongo
     restart: always
+    container_name: mongo.db.catalog.container
     environment:
       MONGO_INITDB_ROOT_USERNAME : ${MONGO_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD : ${MONGO_PASSWORD}
@@ -12,7 +13,7 @@
     
   mongo.db.catalog.ui:
     image: mongo-express:1.0.2-20-alpine3.19
-    container_name : mongo.db.catalog.ui
+    container_name : mongo.db.catalog.ui.container
     ports:
      - 27032:8081
     environment:

@@ -1,5 +1,4 @@
 using Microservice.Catalog.API.Features.Categories;
-using Microservice.Catalog.API.Repositories;
 
 namespace Microservice.Catalog.API.Features.Courses;
 
@@ -9,7 +8,7 @@ public class Course : BaseEntity
     public string Description { get; set; } = default!;
     public decimal Price { get; set; }
     public Guid UserId { get; set; }
-    public string? Picture { get; set; }
+    public string? ImageUrl { get; set; }
     
     public DateTime CreatedDateTime { get; set; }
     

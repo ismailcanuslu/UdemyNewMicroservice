@@ -1,6 +1,43 @@
-@Microservice.Catalog.API_HostAddress = http://localhost:5222
+@baseAddress = http://localhost:5222
+@categoryId = 08ddb25d-5399-2426-ca65-afaf34480000
+@courseId = 08ddb292-b8bb-944e-ca65-afaf34480000
+@userId = 08ddb292-b8bb-944e-ca65-afaf34480000
 
-GET {{Microservice.Catalog.API_HostAddress}}/weatherforecast/
+GET {{baseAddress}}/api/categories
 Accept: application/json
+###
+POST {{baseAddress}}/api/categories
+Accept: application/json
+Content-Type: application/json
 
+{"name":"Category1"}
+###
+GET {{baseAddress}}/api/categories/{{categoryId}}
+Accept: application/json
+###
+###
+POST {{baseAddress}}/api/courses
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name":"new course",
+  "description" : "This is a new course",
+  "price" : 100.0,
+  "picture" : "http://example.com/picture.png",
+  "categoryId" : {{categoryId}},
+  "duration" : 120
+}
+###
+GET {{baseAddress}}/api/courses
+Accept: application/json
+###
+GET {{baseAddress}}/api/courses/{{courseId}}
+Accept: application/json
+###
+DELETE {{baseAddress}}/api/courses/{{courseId}}
+Accept: application/json
+###
+GET {{baseAddress}}/api/courses/user/{{userId}}
+Accept: application/json
 ###
