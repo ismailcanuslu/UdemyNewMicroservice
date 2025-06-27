@@ -54,10 +54,6 @@
             "MongoDB.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"
-            },
-            "NewId": {
-              "target": "Package",
-              "version": "[4.0.1, )"
             }
           },
           "imports": [
@@ -145,6 +141,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
+            },
+            "NewId": {
+              "target": "Package",
+              "version": "[4.0.1, )"
             },
             "Refit.HttpClientFactory": {
               "target": "Package",

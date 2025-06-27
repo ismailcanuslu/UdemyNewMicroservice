@@ -874,6 +874,7 @@
           "AutoMapper": "14.0.0",
           "FluentValidation.AspNetCore": "11.3.1",
           "MediatR": "12.5.0",
+          "NewId": "4.0.1",
           "Refit.HttpClientFactory": "8.0.0",
           "Swashbuckle.AspNetCore": "9.0.1"
         },
@@ -2236,8 +2237,7 @@
     "net9.0": [
       "Microservice.Shared >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.0",
-      "MongoDB.EntityFrameworkCore >= 9.0.0",
-      "NewId >= 4.0.1"
+      "MongoDB.EntityFrameworkCore >= 9.0.0"
     ]
   },
   "packageFolders": {
@@ -2293,10 +2293,6 @@
           "MongoDB.EntityFrameworkCore": {
             "target": "Package",
             "version": "[9.0.0, )"
-          },
-          "NewId": {
-            "target": "Package",
-            "version": "[4.0.1, )"
           }
         },
         "imports": [

@@ -1,0 +1,18 @@
+@baseAddress = http://localhost:5270
+@categoryId = 08ddb25d-5399-2426-ca65-afaf34480000
+@courseId = 08ddb292-b8bb-944e-ca65-afaf34480000
+@userId = 08ddb292-b8bb-944e-ca65-afaf34480000
+
+
+###
+POST {{baseAddress}}/api/v1/discounts
+Accept: application/json
+Content-Type: application/json
+
+{
+  "code": "07FTY54321",
+  "rate": 0.7,
+  "userId": {{userId}},
+  "expiresAt": "2025-06-28T21:37:06.502Z"
+}
+###
