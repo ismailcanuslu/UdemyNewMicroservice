@@ -10,4 +10,12 @@
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Microservice.Shared\Microservice.Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\files\" />
+    </ItemGroup>
+
 </Project>
