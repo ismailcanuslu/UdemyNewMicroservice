@@ -10,7 +10,7 @@ public static class CreateDiscountCommandEndpoint
     {
         group.MapPost("/", async (CreateDiscountCommand command, IMediator mediator) =>
                 (await mediator.Send(command)).ToGenericResult())
-            .AddEndpointFilter<ValidationFilter<CreateDiscountCommandValidator>>()
+            .AddEndpointFilter<ValidationFilter<CreateDiscountCommand>>()
             .Produces(StatusCodes.Status204NoContent)
             .Produces<ProblemDetails>(StatusCodes.Status400BadRequest)
             .MapToApiVersion(1,0)

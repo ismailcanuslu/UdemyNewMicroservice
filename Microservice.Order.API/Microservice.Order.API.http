@@ -1,6 +1,6 @@
-@Microservice.Order.API_HostAddress = http://localhost:5030
+@baseAddress = http://localhost:5189
 
-GET {{Microservice.Order.API_HostAddress}}/weatherforecast/
+GET {{baseAddress}}/weatherforecast/
 Accept: application/json
 
 ###

@@ -14,7 +14,7 @@ public static class ApplyDiscountCouponEndpoint
             .Produces(StatusCodes.Status204NoContent)
             .Produces<ProblemDetails>(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status404NotFound)
-            .AddEndpointFilter<ValidationFilter<ApplyDiscountCouponValidator>>()
+            .AddEndpointFilter<ValidationFilter<ApplyDiscountCouponCommand>>()
             .MapToApiVersion(1,0)
             .WithName("ApplyBasketDiscountCouponEndpoint");
 

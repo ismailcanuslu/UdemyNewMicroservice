@@ -8,10 +8,16 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.6">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.1" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Microservice.Shared\Microservice.Shared.csproj" />
+      <ProjectReference Include="..\Microservice.Order.Application\Microservice.Order.Application.csproj" />
+      <ProjectReference Include="..\Microservice.Order.Persistance\Microservice.Order.Persistance.csproj" />
     </ItemGroup>
 
 </Project>

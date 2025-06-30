@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k5jNlGgXb/S88FZL34+hWGBSPZDi5LUAi3znaI1X+tc=",
+  "Hash": "lLkhTbgMt6MyBlo8gXyVn3YOxEBuV/uXiS+lFdEyKbU=",
   "Source": "Microservice.File.API",
   "BasePath": "_content/Microservice.File.API",
   "Mode": "Default",
@@ -15,111 +15,6 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [
-    {
-      "Identity": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.File.API/wwwroot/files/c3c8d298-e085-45b6-8d6e-6dc40f7723d7.jpg",
-      "SourceId": "Microservice.File.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.File.API/wwwroot/",
-      "BasePath": "_content/Microservice.File.API",
-      "RelativePath": "files/c3c8d298-e085-45b6-8d6e-6dc40f7723d7#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "yliyjn6e1x",
-      "Integrity": "tiGL5pDbkqMIDz05W/tyDWb6TNqiNGeAOPP7UJOsvSU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/files/c3c8d298-e085-45b6-8d6e-6dc40f7723d7.jpg"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "files/c3c8d298-e085-45b6-8d6e-6dc40f7723d7.jpg",
-      "AssetFile": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.File.API/wwwroot/files/c3c8d298-e085-45b6-8d6e-6dc40f7723d7.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1110172"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tiGL5pDbkqMIDz05W/tyDWb6TNqiNGeAOPP7UJOsvSU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 27 Jun 2025 13:04:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tiGL5pDbkqMIDz05W/tyDWb6TNqiNGeAOPP7UJOsvSU="
-        }
-      ]
-    },
-    {
-      "Route": "files/c3c8d298-e085-45b6-8d6e-6dc40f7723d7.yliyjn6e1x.jpg",
-      "AssetFile": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.File.API/wwwroot/files/c3c8d298-e085-45b6-8d6e-6dc40f7723d7.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1110172"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tiGL5pDbkqMIDz05W/tyDWb6TNqiNGeAOPP7UJOsvSU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 27 Jun 2025 13:04:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yliyjn6e1x"
-        },
-        {
-          "Name": "label",
-          "Value": "files/c3c8d298-e085-45b6-8d6e-6dc40f7723d7.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tiGL5pDbkqMIDz05W/tyDWb6TNqiNGeAOPP7UJOsvSU="
-        }
-      ]
-    }
-  ]
+  "Assets": [],
+  "Endpoints": []
 }

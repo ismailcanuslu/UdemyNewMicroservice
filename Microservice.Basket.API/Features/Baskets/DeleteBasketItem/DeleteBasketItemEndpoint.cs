@@ -11,7 +11,7 @@ public static class DeleteBasketItemEndpoint
     {
         group.MapDelete("/item/{id:guid}", async (Guid id, IMediator mediator) =>
                 (await mediator.Send(new DeleteBasketItemCommand(id))).ToGenericResult())
-            .AddEndpointFilter<ValidationFilter<DeleteBasketItemCommandValidator>>()
+            .AddEndpointFilter<ValidationFilter<DeleteBasketItemCommand>>()
             .Produces(StatusCodes.Status204NoContent)
             .Produces<ProblemDetails>(StatusCodes.Status400BadRequest)
             .Produces(StatusCodes.Status404NotFound)

@@ -10,8 +10,7 @@
         "dependencies": {
           "Microservice.Shared": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.0",
-          "MongoDB.EntityFrameworkCore": "9.0.0",
-          "NewId": "4.0.1"
+          "MongoDB.EntityFrameworkCore": "9.0.0"
         },
         "runtime": {
           "Microservice.Catalog.API.dll": {}
@@ -471,6 +470,7 @@
           "AutoMapper": "14.0.0",
           "FluentValidation.AspNetCore": "11.3.1",
           "MediatR": "12.5.0",
+          "NewId": "4.0.1",
           "Refit.HttpClientFactory": "8.0.0",
           "Swashbuckle.AspNetCore": "9.0.1"
         },
