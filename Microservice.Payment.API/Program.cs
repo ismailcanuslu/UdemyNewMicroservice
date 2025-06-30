@@ -1,4 +1,5 @@
 using Microservice.Payment.API;
+using Microservice.Payment.API.Features.Payments;
 using Microservice.Payment.API.Repositories;
 using Microservice.Shared.Extensions;
 using Microsoft.EntityFrameworkCore;
@@ -26,7 +27,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-
+app.AddPaymentGroupEndpointExt(app.AddVersionSetExt());
 
 app.Run();
 
