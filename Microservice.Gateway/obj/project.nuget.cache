@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "uLlrnVYei1A=",
+  "success": true,
+  "projectFilePath": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Gateway/Microservice.Gateway.csproj",
+  "expectedPackageFiles": [
+    "/Users/ismailcanuslu/.nuget/packages/system.io.hashing/8.0.0/system.io.hashing.8.0.0.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/yarp.reverseproxy/2.3.0/yarp.reverseproxy.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

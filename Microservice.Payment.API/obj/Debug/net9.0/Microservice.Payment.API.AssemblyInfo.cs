@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Microservice.Payment.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4ac99d4195276a90cb624b80ef2f270b2aac212")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+349141e488b0aa10ba44e0127f91d446ff1e9918")]
 [assembly: System.Reflection.AssemblyProductAttribute("Microservice.Payment.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Microservice.Payment.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
