@@ -6,16 +6,16 @@ using Microservice.Shared.Services;
 
 namespace Microservice.Payment.API.Features.Payments.Create;
 
-public class CreatePaymentCommandHandler(AppDbContext context, IIdentityService identityService) : IRequestHandler<CreatePaymentCommand, ServiceResult>
+public class CreatePaymentCommandHandler(AppDbContext context, IIdentityService identityService) : IRequestHandler<CreatePaymentCommand, ServiceResult<Guid>>
 {
-    public async Task<ServiceResult> Handle(CreatePaymentCommand request, CancellationToken cancellationToken)
+    public async Task<ServiceResult<Guid>> Handle(CreatePaymentCommand request, CancellationToken cancellationToken)
     {
         var (isSuccess, error) = await ExternalPaymentProcessAsync(request.CardNumber, request.CardHolderName,
             request.CardExpirationDate, request.CardSecurityNumber, request.Amount);
 
         if (!isSuccess)
         {
-            return ServiceResult.Error("Payment Failed", "errorMessage", HttpStatusCode.BadRequest);
+            return ServiceResult<Guid>.Error("Payment Failed", "errorMessage", HttpStatusCode.BadRequest);
         }
 
         var userId = identityService.GetUserId;
@@ -25,7 +25,7 @@ public class CreatePaymentCommandHandler(AppDbContext context, IIdentityService 
         context.Payments.Add(newPayment);
         await context.SaveChangesAsync(cancellationToken);
 
-        return ServiceResult.SuccessAsNoContent();
+        return ServiceResult<Guid>.SuccessAsOk(newPayment.Id);
     }
 
     private async Task<(bool isSuccess,string? error)> ExternalPaymentProcessAsync(string cardNumber, string cardHolderName,
