@@ -11,7 +11,7 @@ public static class AddBasketItemEndpoint
     {
         group.MapPost("/item", async (AddBasketItemCommand command, IMediator mediator) =>
                 (await mediator.Send(command)).ToGenericResult())
-            .AddEndpointFilter<ValidationFilter<AddBasketItemCommandValidator>>()
+            .AddEndpointFilter<ValidationFilter<AddBasketItemCommand>>()
             .Produces(StatusCodes.Status204NoContent)
             .Produces<ProblemDetails>(StatusCodes.Status400BadRequest)
             .MapToApiVersion(1,0)

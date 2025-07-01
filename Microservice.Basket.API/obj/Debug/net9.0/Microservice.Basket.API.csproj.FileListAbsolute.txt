@@ -52,3 +52,4 @@
 /Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Basket.API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Basket.API/bin/Debug/net9.0/Microservice.Shared.dll
 /Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Basket.API/bin/Debug/net9.0/Microservice.Shared.pdb
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Basket.API/bin/Debug/net9.0/NewId.dll

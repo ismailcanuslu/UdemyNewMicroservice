@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "5iiLyeuNcrrpdGK3bS8h23ENB+iTd65S63LjYWkaweo=",
+  "Source": "Microservice.Payment.API",
+  "BasePath": "_content/Microservice.Payment.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

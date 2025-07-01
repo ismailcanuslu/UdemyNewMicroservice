@@ -1,0 +1,16 @@
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/bin/Debug/net9.0/Microservice.Order.Domain.deps.json
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/bin/Debug/net9.0/Microservice.Order.Domain.dll
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/bin/Debug/net9.0/Microservice.Order.Domain.pdb
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/bin/Debug/net9.0/Microservice.Shared.dll
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/bin/Debug/net9.0/Microservice.Shared.pdb
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/Microservice.Order.Domain.csproj.AssemblyReference.cache
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/Microservice.Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/Microservice.Order.Domain.AssemblyInfoInputs.cache
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/Microservice.Order.Domain.AssemblyInfo.cs
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/Microservice.Order.Domain.csproj.CoreCompileInputs.cache
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/Microservice.Order.Domain.sourcelink.json
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/Microser.8D127780.Up2Date
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/Microservice.Order.Domain.dll
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/refint/Microservice.Order.Domain.dll
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/Microservice.Order.Domain.pdb
+/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Order.Domain/obj/Debug/net9.0/ref/Microservice.Order.Domain.dll

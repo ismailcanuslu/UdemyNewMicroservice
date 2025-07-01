@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "lLkhTbgMt6MyBlo8gXyVn3YOxEBuV/uXiS+lFdEyKbU=",
+  "Source": "Microservice.File.API",
+  "BasePath": "_content/Microservice.File.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Microservice.File.API/wwwroot",
+      "Source": "Microservice.File.API",
+      "ContentRoot": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.File.API/wwwroot/",
+      "BasePath": "_content/Microservice.File.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

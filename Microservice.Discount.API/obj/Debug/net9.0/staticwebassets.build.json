@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "7icifTYUyNqTKYoTz8GpYTHEbJMMyANpCsidqjx5fxc=",
+  "Source": "Microservice.Discount.API",
+  "BasePath": "_content/Microservice.Discount.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

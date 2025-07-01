@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KXMqMPzRMlE=",
+  "dgSpecHash": "/rg5dOyuYc4=",
   "success": true,
   "projectFilePath": "/Users/ismailcanuslu/Documents/GitHub/UdemyNewMicroservice/Microservice.Basket.API/Microservice.Basket.API.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "/Users/ismailcanuslu/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/microsoft.openapi/1.6.23/microsoft.openapi.1.6.23.nupkg.sha512",
+    "/Users/ismailcanuslu/.nuget/packages/newid/4.0.1/newid.4.0.1.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/refit/8.0.0/refit.8.0.0.nupkg.sha512",
     "/Users/ismailcanuslu/.nuget/packages/refit.httpclientfactory/8.0.0/refit.httpclientfactory.8.0.0.nupkg.sha512",
